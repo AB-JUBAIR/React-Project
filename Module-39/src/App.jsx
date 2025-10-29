@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Count from './Count'
 import Users from './Users'
 import Friends from './Friends'
+import Countries from './Components/Countries'
 function App() {
   const handleClick2 = () => {
     alert("clicked button 2")
@@ -19,9 +18,21 @@ function App() {
 
   return (
     <>
-    <Users></Users>
-    <Friends> </Friends>
-  <Count> </Count>
+<Countries></Countries>
+
+
+
+
+
+
+
+
+
+
+
+    {/* <Users></Users> */}
+    {/* <Friends> </Friends> */}
+  {/* <Count> </Count> */}
       <h1>Vite + React</h1>
 <button onClick={handleClick2} >Click me 12 </button>
 
